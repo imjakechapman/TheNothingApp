@@ -402,9 +402,9 @@ footer .logo img {
 .promo-button {
     display: inline-block;
     white-space: nowrap;
-    height: 52px;
-    line-height: 52px;
-    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
     text-decoration: none;
     padding: 0 30px;
     background: transparent;
