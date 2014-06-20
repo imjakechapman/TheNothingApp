@@ -552,9 +552,9 @@ footer .logo img {
     display: block;
 }
 .subscribe {
-    background: #26a6d1;
+    background: #F6E766;
     text-align: center;
-    color: #ffffff;
+    color: #333;
     text-align: center;
     padding: 107px 0 113px;
 }
@@ -567,6 +567,11 @@ footer .logo img {
     display: inline-block;
     margin: 0 0 30px;
 }
+
+#subscribe {
+    overflow: hidden;
+}
+
 .subscribe-email {
     float: left;
     border: 0;
@@ -590,11 +595,9 @@ footer .logo img {
     width: 160px;
     height: 52px;
     text-align: center;
-    font-weight: bold;
     font-size: 20px;
-    color: #26a6d1;
+    color: #333;
     background: #ffffff;
-    text-transform: uppercase;
     margin: 0 10px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -607,6 +610,13 @@ footer .logo img {
     clear: both;
 }
 
+
+#result {
+    display: none;
+    clear: both;
+    width: 100%;
+    padding: 2em;
+}
 
 .simple {
     background: #333;
