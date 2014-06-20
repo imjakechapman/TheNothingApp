@@ -54,6 +54,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1A1CA81954FB0A005067AF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		4D30BA3819539AB0003C0FBD = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +82,7 @@
 		4D30BA4319539AB0003C0FBD /* TheNothingApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D1A1CA81954FB0A005067AF /* iPad */,
 				4D30BA4619539AB0003C0FBD /* AppDelegate.swift */,
 				4D30BA4819539AB0003C0FBD /* ViewController.swift */,
 				4D30BA4A19539AB0003C0FBD /* Main.storyboard */,
@@ -158,6 +166,7 @@
 				TargetAttributes = {
 					4D30BA4019539AB0003C0FBD = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = UNBRY7JKMQ;
 					};
 					4D30BA5219539AB0003C0FBD = {
 						CreatedOnToolsVersion = 6.0;
@@ -326,8 +335,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TheNothingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -337,8 +348,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TheNothingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -397,6 +410,7 @@
 				4D30BA5F19539AB0003C0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D30BA6019539AB0003C0FBD /* Build configuration list for PBXNativeTarget "TheNothingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +419,7 @@
 				4D30BA6219539AB0003C0FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
