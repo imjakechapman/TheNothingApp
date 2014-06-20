@@ -423,8 +423,8 @@ footer .logo img {
     color: #333;
 }
 .promo-button:active {
-    color: #188bb2;
-    background-color: #e2f9f5;
+    color: #333;
+    background-color: #fff;
     -moz-box-shadow: inset 0 2px 0 rgba(0,0,1,.1);
     -webkit-box-shadow: inset 0 2px 0 rgba(0,0,1,.1);
     box-shadow: inset 0 2px 0 rgba(0,0,1,.1);
