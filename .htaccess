@@ -1,0 +1,9 @@
+# ----------------------------------------------------------------------
+# Remove "www." from beginning of URLs
+# http://stackoverflow.com/questions/234723/generic-htaccess-redirect-www-to-non-www
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+  RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+</IfModule>
