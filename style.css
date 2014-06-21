@@ -402,11 +402,11 @@ footer .logo img {
 .promo-button {
     display: inline-block;
     white-space: nowrap;
-    height: 45px;
-    line-height: 45px;
+    height: 30px;
+    line-height: 30px;
     font-size: 14px;
     text-decoration: none;
-    padding: 0 30px;
+    padding: 0 20px;
     background: transparent;
     border: 2px solid #fff;
     color: white;
