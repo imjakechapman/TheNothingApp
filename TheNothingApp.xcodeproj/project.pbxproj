@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D30BA4719539AB0003C0FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30BA4619539AB0003C0FBD /* AppDelegate.swift */; };
-		4D30BA4919539AB0003C0FBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30BA4819539AB0003C0FBD /* ViewController.swift */; };
+		4D30BA4919539AB0003C0FBD /* TheNothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30BA4819539AB0003C0FBD /* TheNothingViewController.swift */; };
 		4D30BA4C19539AB0003C0FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D30BA4A19539AB0003C0FBD /* Main.storyboard */; };
 		4D30BA4E19539AB0003C0FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D30BA4D19539AB0003C0FBD /* Images.xcassets */; };
 		4D30BA5A19539AB0003C0FBD /* TheNothingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30BA5919539AB0003C0FBD /* TheNothingAppTests.swift */; };
@@ -28,7 +28,7 @@
 		4D30BA4119539AB0003C0FBD /* TheNothingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNothingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D30BA4519539AB0003C0FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D30BA4619539AB0003C0FBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D30BA4819539AB0003C0FBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D30BA4819539AB0003C0FBD /* TheNothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNothingViewController.swift; sourceTree = "<group>"; };
 		4D30BA4B19539AB0003C0FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D30BA4D19539AB0003C0FBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D30BA5319539AB0003C0FBD /* TheNothingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNothingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +84,7 @@
 			children = (
 				4D1A1CA81954FB0A005067AF /* iPad */,
 				4D30BA4619539AB0003C0FBD /* AppDelegate.swift */,
-				4D30BA4819539AB0003C0FBD /* ViewController.swift */,
+				4D30BA4819539AB0003C0FBD /* TheNothingViewController.swift */,
 				4D30BA4A19539AB0003C0FBD /* Main.storyboard */,
 				4D30BA4D19539AB0003C0FBD /* Images.xcassets */,
 				4D30BA4419539AB0003C0FBD /* Supporting Files */,
@@ -217,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D30BA4919539AB0003C0FBD /* ViewController.swift in Sources */,
+				4D30BA4919539AB0003C0FBD /* TheNothingViewController.swift in Sources */,
 				4D30BA4719539AB0003C0FBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,21 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-8u-1c2">
-                                <rect key="frame" x="210" y="229" width="61" height="21"/>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nothing App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGs-8u-1c2">
+                                <rect key="frame" x="85" y="209" width="311" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="61" id="Fsr-27-Ep1"/>
+                                    <constraint firstAttribute="width" constant="311" id="Fsr-27-Ep1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relax, stay awhile, do nothing." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ed2-wn-rDG">
+                                <rect key="frame" x="85" y="239" width="311" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="2iw-r2-8g2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="eGs-8u-1c2" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="209" id="LYy-d8-sm5"/>
+                            <constraint firstItem="eGs-8u-1c2" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="189" id="LYy-d8-sm5"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Ed2-wn-rDG" secondAttribute="bottom" constant="208" id="Ntt-yq-EGw"/>
                             <constraint firstItem="eGs-8u-1c2" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="eIL-pu-dCN"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="eGs-8u-1c2" secondAttribute="bottom" constant="230" id="n6p-os-oxA"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="eGs-8u-1c2" secondAttribute="bottom" constant="238" id="n6p-os-oxA"/>
+                            <constraint firstItem="Ed2-wn-rDG" firstAttribute="leading" secondItem="eGs-8u-1c2" secondAttribute="leading" id="rIy-Zg-hUy"/>
+                            <constraint firstItem="Ed2-wn-rDG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="219" id="rls-ym-Uyg"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
